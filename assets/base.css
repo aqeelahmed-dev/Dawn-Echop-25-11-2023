@@ -3510,7 +3510,8 @@ details-disclosure > details {
   .animate--hover-vertical-lift .button:not([disabled]).button--secondary:hover:after {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
-  /* Code for Desktop Banner */
+}
+/* Code for Desktop Banner */
 
 @media screen and (max-width: 480px){
   #Banner-template--16309149270190__image_banner {
@@ -3527,5 +3528,4 @@ details-disclosure > details {
 
 #Banner-template--16309149270190__abae02e2-150e-4941-9c89-b7fb8f854e46 {
     display: none;
-}
 }

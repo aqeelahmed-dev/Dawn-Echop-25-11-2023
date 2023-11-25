@@ -3511,21 +3511,3 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 }
-/* Code for Desktop Banner */
-
-@media screen and (max-width: 480px){
-  Banner-template--21567884362014__image_banner {
-    display: none;
-    /* Code contrubution by websensepro.com */
-}}
-
-/* Code for Mobile Banner */
-@media screen and (max-width: 480px) {
-#Banner-template--21567884362014__abae02e2-150e-4941-9c89-b7fb8f854e46 {
-    display: block !important;
-  /* Code contrubution by websensepro.com */
-}}
-
-#Banner-template--21567884362014__abae02e2-150e-4941-9c89-b7fb8f854e46 {
-    display: none;
-}

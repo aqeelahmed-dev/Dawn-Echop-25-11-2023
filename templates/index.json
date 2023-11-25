@@ -40,37 +40,39 @@
         "show_text_below": false
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "56d191ed-887a-4099-8843-ee22f13bae0b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21567884362014__56d191ed-887a-4099-8843-ee22f13bae0b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "EcomShop™",
+            "heading_size": "hxl"
+          }
+        },
+        "template--21567884362014__56d191ed-887a-4099-8843-ee22f13bae0b-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We aim to offer our customers a variety of the products at reasonable prices. By making quality products available to everyone, we are making the world a better place.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21567884362014__56d191ed-887a-4099-8843-ee22f13bae0b-heading-1",
+        "template--21567884362014__56d191ed-887a-4099-8843-ee22f13bae0b-text-1"
+      ],
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 36
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "56d191ed-887a-4099-8843-ee22f13bae0b"
   ]
 }

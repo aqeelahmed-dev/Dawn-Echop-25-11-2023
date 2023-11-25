@@ -3510,9 +3510,4 @@ details-disclosure > details {
   .animate--hover-vertical-lift .button:not([disabled]).button--secondary:hover:after {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
-  @media (max-width: 767px){
-#Banner-template--21203947815253__image_banner .banner__media-half {
-width: 100%;
-}
-}
 }

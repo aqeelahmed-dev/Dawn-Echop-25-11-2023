@@ -23,13 +23,13 @@
         "heading"
       ],
       "custom_css": [
-        ".banner__media-half{@media (max-width: 767px){#Banner-template--21567884362014__image_banner .banner__media-half {width: 100%;}}}"
+
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/ecomshop_Desktop.svg",
         "image_2": "shopify:\/\/shop_images\/ecomshop_Mobile.svg",
         "image_overlay_opacity": 40,
-        "image_height": "large",
+        "image_height": "adapt",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",

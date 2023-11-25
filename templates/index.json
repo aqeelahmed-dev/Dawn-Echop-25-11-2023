@@ -3,31 +3,28 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
+        "56e3d929-7257-41ca-9a0f-f10a88184e00": {
+          "type": "text",
+          "settings": {
+            "text": "Find yourself.",
+            "text_style": "caption-with-letter-spacing"
+          }
+        },
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
+            "heading": "Enrich your shopping list wisely.",
             "heading_size": "h0"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "56e3d929-7257-41ca-9a0f-f10a88184e00",
+        "heading"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/ecomshop_Desktop.svg",
+        "image_2": "shopify:\/\/shop_images\/ecomshop_Mobile.svg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "bottom-center",

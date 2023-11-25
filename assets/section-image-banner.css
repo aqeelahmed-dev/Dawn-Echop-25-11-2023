@@ -479,3 +479,22 @@
     color: currentColor;
   }
 }
+.banner__media:first-child {
+    width: 100%;
+}
+.banner__media+.banner__media {
+    display: none;
+}
+@media screen and (max-width: 749px) {
+  .banner__content::before{
+		padding-bottom: 150% !important;
+	}
+	.banner__media:first-child {
+		display: none;
+      
+	}
+	.banner__media+.banner__media {
+		width: 100%;
+		display: block !important;
+	}
+}

@@ -479,6 +479,8 @@
     color: currentColor;
   }
 }
+
+/* Code For Home Banner to show Saparate Images on Multiple Devices Starts here */
 .banner__media:first-child {
     width: 100%;
 }
@@ -498,3 +500,4 @@
 		display: block !important;
 	}
 }
+/* Code For Home Banner to show Saparate Images on Multiple Devices Ends here */

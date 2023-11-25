@@ -3514,18 +3514,18 @@ details-disclosure > details {
 /* Code for Desktop Banner */
 
 @media screen and (max-width: 480px){
-  #Banner-template--16309149270190__image_banner {
+  Banner-template--21567884362014__image_banner {
     display: none;
     /* Code contrubution by websensepro.com */
 }}
 
 /* Code for Mobile Banner */
 @media screen and (max-width: 480px) {
-#Banner-template--16309149270190__abae02e2-150e-4941-9c89-b7fb8f854e46 {
+#Banner-template--21567884362014__abae02e2-150e-4941-9c89-b7fb8f854e46 {
     display: block !important;
   /* Code contrubution by websensepro.com */
 }}
 
-#Banner-template--16309149270190__abae02e2-150e-4941-9c89-b7fb8f854e46 {
+#Banner-template--21567884362014__abae02e2-150e-4941-9c89-b7fb8f854e46 {
     display: none;
 }

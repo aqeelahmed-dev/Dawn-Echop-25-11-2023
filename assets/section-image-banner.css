@@ -503,5 +503,5 @@
 /* Code For Home Banner to show Saparate Images on Multiple Devices Ends here */
 @media screen and (max-width: 749px) {
 .banner__heading inline-richtext{
-display: none;
+display: none !important;
 }

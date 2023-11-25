@@ -480,7 +480,7 @@
   }
 }
 
-/* Code For Home Banner to show Saparate Images on Multiple Devices Starts here */
+/* Code For Home Banner to show separate Images on Multiple Devices starts here */
 .banner__media:first-child {
     width: 100%;
 }
@@ -500,8 +500,11 @@
 		display: block !important;
 	}
 }
-/* Code For Home Banner to show Saparate Images on Multiple Devices Ends here */
+/* Code For Home Banner to show separate Images on Multiple Devices Ends here */
+
+/* Code to hide textual content from Home Banner for Mobile device Only starts here */
 @media screen and (max-width: 749px) {
 .content-container--full-width-mobile{
 display: none;
 }
+/* Code to hide textual content from Home Banner for Mobile device Only starts here */  

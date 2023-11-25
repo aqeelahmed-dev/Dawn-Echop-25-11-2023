@@ -503,5 +503,5 @@
 /* Code For Home Banner to show Saparate Images on Multiple Devices Ends here */
 @media screen and (max-width: 749px) {
 .content-container--full-width-mobile{
-display: none !important;
+display: none;
 }

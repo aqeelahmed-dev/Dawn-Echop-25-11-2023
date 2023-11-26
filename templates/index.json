@@ -104,6 +104,7 @@
         "template--21567884362014__5f4dc8ec-794b-40a0-a928-4ec858bb9d79-column-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/1_200x_d1557bdb-96f5-41a8-a36a-40405ad46d84.svg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -113,6 +114,7 @@
         "15605004-91a3-4f10-94bd-5927468b0fe2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/3_200x_3f440a06-ede5-4423-874d-1ada544237e8.svg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -122,6 +124,17 @@
         "180aeb22-cd6f-46b2-8028-e531297b83c5": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/4_200x_f1ff6e6a-b477-41c1-acc9-a073450f8351.svg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b3f40cb2-6672-4023-b0d7-6a70cf9ae83c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_200x_d654a20d-8a7c-4ed6-9c63-70ff1c56471c.svg",
             "title": "",
             "text": "",
             "link_label": "",
@@ -132,7 +145,8 @@
       "block_order": [
         "template--21567884362014__5f4dc8ec-794b-40a0-a928-4ec858bb9d79-column-1",
         "15605004-91a3-4f10-94bd-5927468b0fe2",
-        "180aeb22-cd6f-46b2-8028-e531297b83c5"
+        "180aeb22-cd6f-46b2-8028-e531297b83c5",
+        "b3f40cb2-6672-4023-b0d7-6a70cf9ae83c"
       ],
       "settings": {
         "title": "Featured on;",
@@ -141,12 +155,12 @@
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "Button label",
         "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "color_scheme": "inverse",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }

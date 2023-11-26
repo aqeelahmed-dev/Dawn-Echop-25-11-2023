@@ -79,7 +79,7 @@
         "show_description": false,
         "description_style": "uppercase",
         "collection": "trending-items",
-        "products_to_show": 8,
+        "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": false,

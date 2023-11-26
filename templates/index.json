@@ -46,14 +46,14 @@
         "template--21567884362014__56d191ed-887a-4099-8843-ee22f13bae0b-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "EcomShop™",
-            "heading_size": "hxl"
+            "heading": "<strong>Shop Smarter, Live Better.<\/strong>",
+            "heading_size": "h0"
           }
         },
         "template--21567884362014__56d191ed-887a-4099-8843-ee22f13bae0b-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We aim to offer our customers a variety of the products at reasonable prices. By making quality products available to everyone, we are making the world a better place.<\/p>"
+            "text": "<p>Discover affordable, quality products for a better world. Shop now and join our mission to make shopping accessible to all. Worldwide shipping.<\/p>"
           }
         }
       },

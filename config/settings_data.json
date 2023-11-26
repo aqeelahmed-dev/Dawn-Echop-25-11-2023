@@ -95,7 +95,7 @@
     "badge_position": "top left",
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "accent-2",
-    "sold_out_badge_color_scheme": "inverse",
+    "sold_out_badge_color_scheme": "background-2",
     "brand_headline": "",
     "brand_description": "<p><\/p>",
     "brand_image_width": 100,
@@ -170,9 +170,9 @@
           "background": "#ffffff",
           "background_gradient": "",
           "text": "#000000",
-          "button": "#ffffff",
-          "button_label": "#000000",
-          "secondary_button_label": "#ffffff",
+          "button": "#3e6c46",
+          "button_label": "#fff",
+          "secondary_button_label": "#3e6c46",
           "shadow": "#121212"
         }
       },

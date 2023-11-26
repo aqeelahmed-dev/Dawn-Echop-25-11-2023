@@ -153,12 +153,73 @@
         "padding_top": 48,
         "padding_bottom": 48
       }
+    },
+    "b55b6aff-a999-4646-8143-069ddc89d26e": {
+      "type": "featured-product",
+      "blocks": {
+        "template--21567884362014__b55b6aff-a999-4646-8143-069ddc89d26e-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "TRENDING ITEM ON TIKTOK",
+            "text_style": "uppercase"
+          }
+        },
+        "template--21567884362014__b55b6aff-a999-4646-8143-069ddc89d26e-title-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--21567884362014__b55b6aff-a999-4646-8143-069ddc89d26e-price-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--21567884362014__b55b6aff-a999-4646-8143-069ddc89d26e-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "d593f17f-8858-49c0-8d71-362da074384c": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21567884362014__b55b6aff-a999-4646-8143-069ddc89d26e-text-1",
+        "template--21567884362014__b55b6aff-a999-4646-8143-069ddc89d26e-title-1",
+        "template--21567884362014__b55b6aff-a999-4646-8143-069ddc89d26e-price-1",
+        "template--21567884362014__b55b6aff-a999-4646-8143-069ddc89d26e-buy_buttons-1",
+        "d593f17f-8858-49c0-8d71-362da074384c"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "product": "money-shooter",
+        "color_scheme": "inverse",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "cover",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
     }
   },
   "order": [
     "image_banner",
     "56d191ed-887a-4099-8843-ee22f13bae0b",
     "35a3330e-fb49-4998-9958-dc4dd1a30cae",
-    "efbac107-6c37-4583-b10e-fde3a0cd03e6"
+    "efbac107-6c37-4583-b10e-fde3a0cd03e6",
+    "b55b6aff-a999-4646-8143-069ddc89d26e"
   ]
 }

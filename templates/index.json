@@ -128,7 +128,6 @@
         },
         "d593f17f-8858-49c0-8d71-362da074384c": {
           "type": "custom_liquid",
-          "disabled": true,
           "settings": {
             "custom_liquid": "<strong style=\"    display: flex; margin: auto; justify-content: center;\"><\/strong>\n<img src=\"https:\/\/dropcarte.pk\/cdn\/shop\/files\/Easy_Returns_1500x.png\" style=\"    width: 100%;\n    margin: 0;\">"
           }

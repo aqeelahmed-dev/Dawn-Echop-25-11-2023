@@ -3511,6 +3511,7 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 }
+/* Code by AQEEL to Center Featured Collection Title & Description starts here */  
 /* Center-align the Collection heading */
 .title.inline-richtext.h0.scroll-trigger.animate--slide-in {
   text-align: center;
@@ -3520,3 +3521,5 @@ details-disclosure > details {
 .collection__description.uppercase.rte.scroll-trigger.animate--slide-in {
   text-align: center;
 }
+/* Code by AQEEL to Center Featured Collection Title & Description ends here */  
+

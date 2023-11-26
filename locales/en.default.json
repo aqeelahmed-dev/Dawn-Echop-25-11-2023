@@ -2,7 +2,7 @@
   "general": {
     "password_page": {
       "login_form_heading": "Enter 1 to Enter:",
-      "login_password_button": "Enter using password",
+      "login_password_button": "Enter 1 to Enter",
       "login_form_password_label": "Password",
       "login_form_password_placeholder": "Your password",
       "login_form_error": "Wrong password!",

@@ -130,7 +130,7 @@
           "type": "custom_liquid",
           "disabled": true,
           "settings": {
-            "custom_liquid": "<strong style=\"    display: flex; margin: auto; justify-content: center;\n}\"><\/strong>\n<img src=\"https:\/\/dropcarte.pk\/cdn\/shop\/files\/Easy_Returns_1500x.png\" style=\"    width: 100%;\n    margin: 0;\">"
+            "custom_liquid": "<strong style=\"    display: flex; margin: auto; justify-content: center;\"><\/strong>\n<img src=\"https:\/\/dropcarte.pk\/cdn\/shop\/files\/Easy_Returns_1500x.png\" style=\"    width: 100%;\n    margin: 0;\">"
           }
         }
       },

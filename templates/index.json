@@ -164,12 +164,69 @@
         "padding_top": 48,
         "padding_bottom": 48
       }
+    },
+    "efbac107-6c37-4583-b10e-fde3a0cd03e6": {
+      "type": "image-with-text",
+      "blocks": {
+        "8af3231f-4131-45a0-b7d0-3a1427db2571": {
+          "type": "caption",
+          "settings": {
+            "caption": "KIDS LEARNING",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "template--21567884362014__efbac107-6c37-4583-b10e-fde3a0cd03e6-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "KIDS BUILDING BLOCKS",
+            "heading_size": "h1"
+          }
+        },
+        "template--21567884362014__efbac107-6c37-4583-b10e-fde3a0cd03e6-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Kids Building Blocks: Unlock Creativity, One Block at a Time! 🌈🧒🏰<\/strong>Watch as your little ones embark on a journey of creativity, problem-solving, and fun, all while developing essential cognitive skills. Build, stack, and create memorable moments with Kids Building Blocks! 🌟🏗️🎉<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--21567884362014__efbac107-6c37-4583-b10e-fde3a0cd03e6-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get your's Now",
+            "button_link": "shopify:\/\/products\/kids-building-blocks",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "8af3231f-4131-45a0-b7d0-3a1427db2571",
+        "template--21567884362014__efbac107-6c37-4583-b10e-fde3a0cd03e6-heading-1",
+        "template--21567884362014__efbac107-6c37-4583-b10e-fde3a0cd03e6-text-1",
+        "template--21567884362014__efbac107-6c37-4583-b10e-fde3a0cd03e6-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/eYGSMagnetic-Building-Sticks-Blocks-Toy-For-Toddlers-Montessori-Stem-Educational-Construction-Set-Magnet-Toys-For-Kids.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
     }
   },
   "order": [
     "image_banner",
     "56d191ed-887a-4099-8843-ee22f13bae0b",
     "35a3330e-fb49-4998-9958-dc4dd1a30cae",
-    "5f4dc8ec-794b-40a0-a928-4ec858bb9d79"
+    "5f4dc8ec-794b-40a0-a928-4ec858bb9d79",
+    "efbac107-6c37-4583-b10e-fde3a0cd03e6"
   ]
 }

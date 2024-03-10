@@ -135,7 +135,7 @@
         "type": "tiktok_pixel",
         "settings": {
           "tiktok_pixel_id": "CN65Q3JC77U0M9VJ234G",
-          "enable_tiktok_pixel": true
+          "enable_tiktok_pixel": false
         }
       }
     },

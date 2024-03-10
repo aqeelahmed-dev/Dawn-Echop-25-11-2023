@@ -134,8 +134,14 @@
       "tiktok_pixel": {
         "type": "tiktok_pixel",
         "settings": {
-          "tiktok_pixel_id": "",
-          "enable_tiktok_pixel": false
+          "tiktok_pixel_id": ""
+        }
+      },
+      "facebook_pixcel": {
+        "type": "facebook_pixcel",
+        "settings": {
+          "facebook_pixel_id": "Facebook Pixel ID here",
+          "enable_facebook_pixel": false
         }
       }
     },

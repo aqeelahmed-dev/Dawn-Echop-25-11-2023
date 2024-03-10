@@ -56,7 +56,7 @@
 </div>
 {% schema %}
 {
-  "name": "TikTok Pixel Settings",
+  "name": "Pixel Settings",
   "settings": [
     {
       "type": "text",
@@ -72,20 +72,25 @@
       "default": false
     }
   ],
-  "name": "Facebook Pixel Settings",
-  "settings": [
+  "blocks": [
     {
       "type": "text",
-      "label": "Facebook Pixel ID",
-      "id": "facebook_pixel_id",
-      "default": "Facebook Pixel ID here",
-      "info": "Enter your Facebook Pixel ID here."
-    },
-    {
-      "type": "checkbox",
-      "label": "Enable Facebook Pixel",
-      "id": "enable_facebook_pixel",
-      "default": false
+      "name": "Facebook Pixel Settings",
+      "settings": [
+        {
+          "type": "text",
+          "label": "Facebook Pixel ID",
+          "id": "facebook_pixel_id",
+          "default": "Facebook Pixel ID here",
+          "info": "Enter your Facebook Pixel ID here."
+        },
+        {
+          "type": "checkbox",
+          "label": "Enable Facebook Pixel",
+          "id": "enable_facebook_pixel",
+          "default": false
+        }
+      ]
     }
   ]
 }

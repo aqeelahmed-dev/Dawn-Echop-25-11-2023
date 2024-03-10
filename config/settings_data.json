@@ -144,6 +144,15 @@
           "facebook_pixel_id": "",
           "enable_facebook_pixel": false
         }
+      },
+      "pixels_settings": {
+        "type": "pixels_settings",
+        "settings": {
+          "tiktok_pixel_id": "TikTok Pixel ID here",
+          "enable_tiktok_pixel": false,
+          "facebook_pixel_id": "517991158551582",
+          "enable_facebook_pixel": true
+        }
       }
     },
     "content_for_index": [

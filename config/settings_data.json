@@ -1,6 +1,5 @@
 {
   "current": {
-    "tiktok_pixel_id": "CN65Q3JC77U0M9VJ234G",
     "logo_width": 90,
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
@@ -118,6 +117,7 @@
     "show_cart_note": false,
     "cart_drawer_collection": "",
     "cart_color_scheme": "background-1",
+    "tiktok_pixel_id": "CN65Q3JC77U0M9VJ234G",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
@@ -134,6 +134,7 @@
       "tiktok_pixel": {
         "type": "tiktok_pixel",
         "settings": {
+          "tiktok_pixel_id": "CN65Q3JC77U0M9VJ234G"
         }
       }
     },

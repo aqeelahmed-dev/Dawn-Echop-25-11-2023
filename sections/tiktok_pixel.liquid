@@ -30,23 +30,34 @@
     {% endif %}
   </script>
 </div>
-{% schema %}
-{
-  "name": "TikTok Pixel Settings",
-  "settings": [
-    {
-      "type": "text",
-      "label": "TikTok Pixel ID",
-      "id": "tiktok_pixel_id",
-      "default": "TikTok Pixel ID here",
-      "info": "Enter your TikTok Pixel ID here."
-    },
-    {
-      "type": "checkbox",
-      "label": "Enable TikTok Pixel",
-      "id": "enable_tiktok_pixel",
-      "default": false
-    }
-  ]
-}
-{% endschema %}
+
+<div class="facebook-pixel-section">
+  <script>
+    {% if section.settings.enable_facebook_pixel %}
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '{{ section.settings.facebook_pixel_id }}'); // Use the user input here
+      fbq('track', 'PageView');
+    {% endif %}
+  </script>
+  <noscript
+    ><img
+      height="1"
+      width="1"
+      style="display:none"
+      src="https://www.facebook.com/tr?id={{ section.settings.facebook_pixel_id }}&ev=PageView&noscript=1"
+  ></noscript>
+</div>
+
+[ { "name": "TikTok Pixel Settings", "settings": [ { "type": "text", "label": "TikTok Pixel ID", "id":
+"tiktok_pixel_id", "default": "TikTok Pixel ID here", "info": "Enter your TikTok Pixel ID here." }, { "type":
+"checkbox", "label": "Enable TikTok Pixel", "id": "enable_tiktok_pixel", "default": false } ] }, { "name": "Facebook
+Pixel Settings", "settings": [ { "type": "text", "label": "Facebook Pixel ID", "id": "facebook_pixel_id", "default":
+"Facebook Pixel ID here", "info": "Enter your Facebook Pixel ID here." }, { "type": "checkbox", "label": "Enable
+Facebook Pixel", "id": "enable_facebook_pixel", "default": false } ] } ]

@@ -280,7 +280,7 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
-    {% include 'tiktok_pixel' %}
+    {% render 'tiktok_pixel' %}
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">

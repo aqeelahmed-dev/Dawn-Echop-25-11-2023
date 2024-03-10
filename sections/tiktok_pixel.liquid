@@ -29,3 +29,24 @@
         }(window, document, 'ttq');
   </script>
 </div>
+
+{% schema %}
+{
+  "name": "Pixel Settings",
+  "settings": [
+    {
+      "type": "text",
+      "label": "TikTok Pixel ID",
+      "id": "tiktok_pixel_id",
+      "default": "0",
+      "info": "Enter your TikTok Pixel ID here."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Default",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

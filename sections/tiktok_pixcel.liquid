@@ -1,6 +1,23 @@
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "TIKTOK Pixcel",
+  "settings": [
+    {
+      "type": "text",
+      "label": "Enter TikTok Pixel ID",
+      "id": "tiktok_pixel_id",
+      "default": "0000",
+      "info": "Enter your TikTok Pixel ID here."
+    }
+  ]
+}
 {% endschema %}
+
+<div class="tiktok-pixcel-section">
+  <!-- You can use the input value like this: -->
+  {% if section.settings.tiktok_pixel_id %}
+    <p>Your TikTok Pixel ID: {{ section.settings.tiktok_pixel_id }}</p>
+  {% else %}
+    <p>Please enter your TikTok Pixel ID in the theme settings.</p>
+  {% endif %}
+</div>

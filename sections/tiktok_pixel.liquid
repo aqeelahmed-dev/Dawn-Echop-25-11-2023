@@ -2,6 +2,7 @@
 
 <div class="tiktok-pixel-section">
   <script>
+    {% if section.settings.enable_tiktok_pixel %}
         !function (w, d, t) {
           w.TiktokAnalyticsObject = t;
           var ttq = w[t] = w[t] || [];
@@ -23,13 +24,12 @@
             var a = document.getElementsByTagName("script")[0];
             a.parentNode.insertBefore(o, a);
           };
-
-    ttq.load('{{ section.settings.tiktok_pixel_id }}'); // Use the user input here
-          ttq.page();
-        }(window, document, 'ttq');
+        ttq.load('{{ section.settings.tiktok_pixel_id }}');
+        ttq.page();
+      }(window, document, 'ttq');
+    {% endif %}
   </script>
 </div>
-
 {% schema %}
 {
   "name": "TikTok Pixel Settings",
@@ -40,6 +40,13 @@
       "id": "tiktok_pixel_id",
       "default": "TikTok Pixel ID here",
       "info": "Enter your TikTok Pixel ID here."
+    },
+    {
+      "type": "checkbox",
+      "label": "Enable TikTok Pixel",
+      "id": "enable_tiktok_pixel",
+      "default": false,
+      "info": "Turn on to enable TikTok Pixel script."
     }
   ]
 }

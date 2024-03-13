@@ -148,8 +148,8 @@
       "pixels_settings": {
         "type": "pixels_settings",
         "settings": {
-          "tiktok_pixel_id": "TikTok Pixel ID here",
-          "enable_tiktok_pixel": false,
+          "tiktok_pixel_id": "CNOULKRC77U6D6GPFQ1G",
+          "enable_tiktok_pixel": true,
           "facebook_pixel_id": "Facebook Pixel ID here",
           "enable_facebook_pixel": false
         }
